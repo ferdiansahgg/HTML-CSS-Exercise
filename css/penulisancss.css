@@ -1,0 +1,39 @@
+/* Elements */
+li {
+    /* Penulisan berdasarkan element yang ada */
+}
+
+/* Class */
+.class {}
+
+/* id */
+#name {
+    /* Penulisan berdasarkan id yang ada */
+}
+
+/* Stars*/
+* {
+    /* Berlaku untuk semua elemen yang ada di halaman */
+}
+
+/* Descendant Selectors */
+li a {
+    /* untuk memilih setiap anchor yang berada pada tag li */
+    /* li .hello juga bisa */
+}
+
+/* Adjacent Selectors */
+h4+ul {
+    /* untuk memilih setiap ul yang berdekatan dengan  H4 */
+}
+
+/* Attribute Selectors */
+a[href="https://www.google.com"] {
+    /* untuk memilih segala yang ada di anchor google.com */
+    /* bisa juga untuk input[type="password"]{} */
+}
+
+/* nth of type */
+ul:nth-of-type(3) {
+    /* Untuk memilih setiap ul yang berada di bagian akhir  */
+}

@@ -1,0 +1,17 @@
+li {
+    color: red;
+}
+
+h1 {
+    color: rgba(11, 99, 150, .6);
+    /* border-color: aqua;
+    border-width: 5px;
+    border-style: solid; */
+    border: 5px solid aquamarine;
+}
+
+body {
+    /* background: url(https://images.wallpaperscraft.com/image/palm_trees_tops_crowns_139232_1920x1080.jpg);
+    background-size: cover; */
+    background-color: pink;
+}

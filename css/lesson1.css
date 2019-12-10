@@ -1,0 +1,17 @@
+h1 {
+    font-size: 60px;
+    font-family: arial;
+    color: white;
+    text-align: center;
+}
+
+div {
+    background-color: grey;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+    text-align: justify;
+    background-color: rgb(18, 14, 20);
+}

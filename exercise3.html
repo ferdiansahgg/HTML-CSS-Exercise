@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Register</title>
+</head>
+
+<body>
+    <h1> Register</h1>
+    <form action="">
+        <label for="name"> First Name :</label>
+        <input type="text" name="firstname" id="name" required>
+        <label for="lname"> Last Name :</label>
+        <input type="text" name="lastname" id="lname" required>
+        <br>
+        <label for="rmen">Men</label>
+        <input type="radio" name="gender" id="rmen" value="men">
+        <label for="rfemale">Female</label>
+        <input type="radio" name="gender" id="rfmale" value="female">
+        <br>
+        <label for="yemail">Email :</label>
+        <input type="email" name="email" id="yemail" required>
+        <label for="psw">Password :</label>
+        <input type="password" id="psw" name="psw" maxlength="10" minlength="5" required
+            title="Password Must 5 to 10 characters">
+
+        <br>
+        <label for="birth">Your Birthday :</label>
+        <select name="birthdaymonth" id="birth">
+            <option value="month">Month</option>
+            <option value="january">January</option>
+            <option value="febuary">Febuary</option>
+            <option value="march">March</option>
+        </select>
+        <select name="birthdayDay" id="birth">
+            <option value="Day">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <select name="birthdayYear" id="birth">
+            <option value="Year">Year</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+        </select>
+        <br>
+        <label for="termscondition"> I Agree to the terms and condition</label>
+        <input type="checkbox" name="termsc" id="termscondition" value="yes"> yes
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

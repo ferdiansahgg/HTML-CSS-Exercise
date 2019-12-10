@@ -1,0 +1,19 @@
+body {
+    background-color: orange;
+
+}
+
+li {
+    border: 2px solid black;
+}
+
+.special {
+    color: white;
+    background-color: blueviolet;
+}
+
+#lom {
+    color: black;
+    background-color: white;
+    text-decoration: line-through;
+}

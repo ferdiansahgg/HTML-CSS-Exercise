@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML Belajar buat Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <form action="">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td><label for="username">Username : </label></td>
+                <td colspan="2"><input type="text" name="text" id="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password :</label></td>
+                <td colspan="2"><input type="password" name="" id="password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="jk">Pilih Jenis Kelamin :</label></td>
+                <td colspan="3">
+                    <label for="pria">Pria</label>
+                    <input type="radio" name="jk" id="pria">
+                    <label for="wanita">Wanita</label>
+                    <input type="radio" name="jk" id="wanita">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobby">Pilih Hobi Anda :</label></td>
+                <td colspan="4">
+                    <label for="renang">renang</label>
+                    <input type="checkbox" name="hobby" id="renang">
+                    <label for="makan">makan</label>
+                    <input type="checkbox" name="hobby" id="makan">
+                    <label for="bersepeda">bersepeda</label>
+                    <input type="checkbox" name="hobby" id="bersepeda">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pendapat">Pendapat Anda :</label>
+                </td>
+                <td colspan="2">
+                    <textarea name="pendapat" id="pendapat" cols="30" rows="10">&&Silahkan isi pendapat</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="namakota">Kota : </label>
+                </td>
+                <td colspan="2">
+                    <select name="namakota" id="namakota">
+                        <option value="bandung">Bandung</option>
+                        <option value="jakarta">jakarta</option>
+                        <option value="cibitung">cibitung</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="simpan">Apakah data anda sudah benar : </label></td>
+                <td colspan="2">
+                    <button type="submit">Save</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
